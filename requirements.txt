@@ -10,5 +10,8 @@ python-dotenv
 tiktoken 
 pinecone-client 
 scikit-learn
+langchain_groq
+pytubefix
+langchain_community
 ruff
 git+https://github.com/openai/whisper.git
