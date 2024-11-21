@@ -1,6 +1,5 @@
 openai 
 langchain
-langchain[docarray]
 docarray
 pydantic==1.10.8
 pytube 
