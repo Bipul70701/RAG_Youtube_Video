@@ -1,6 +1,5 @@
 import os
 from dotenv import load_dotenv
-from langchain_groq import ChatGroq
 import streamlit as st
 from langchain_core.output_parsers import StrOutputParser
 from langchain.prompts import ChatPromptTemplate
@@ -12,8 +11,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import DocArrayInMemorySearch
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-
-load_dotenv()
+from langchain_groq import ChatGroq
 
 
 def main():
