@@ -6,7 +6,3 @@ Create a virtual environment and install the required packages:
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 $ pip install -r requirements.txt
-
-Create a .env file with the following variables:
-
-GROQ_API_KEY = [ENTER YOUR GROQ API KEY HERE]
