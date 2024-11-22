@@ -10,3 +10,6 @@ $ python3 -m venv .venv
 $ source .venv/bin/activate
 
 $ pip install -r requirements.txt
+
+
+https://bipul70701-rag-youtube-video-app-yrny3j.streamlit.app/
