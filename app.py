@@ -92,7 +92,7 @@ def main():
     # Let's do this only if we haven't created the transcription file yet.
     file_path = os.path.join(os.getcwd(), "transcription.txt")
     if not os.path.exists(file_path):
-        youtube = YouTube(YOUTUBE_VIDEO,client='WEB_CREATOR', use_oauth=True)
+        youtube = YouTube(YOUTUBE_VIDEO,client='WEB_CREATOR', use_oauth=False)
         audio = youtube.streams.filter(only_audio=True).first()
 
         # Let's load the base model. This is not the most accurate
