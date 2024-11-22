@@ -1,4 +1,5 @@
 openai 
+ffmpeg
 langchain
 docarray
 pytube 
