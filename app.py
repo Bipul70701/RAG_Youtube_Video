@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from pytubefix import YouTube
+import whisper
 from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import DocArrayInMemorySearch
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
@@ -10,7 +11,7 @@ import streamlit as st
 from langchain_core.output_parsers import StrOutputParser
 from langchain.prompts import ChatPromptTemplate
 import tempfile
-import whisper
+
 
 
 
