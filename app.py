@@ -4,13 +4,14 @@ from pytubefix import YouTube
 import whisper
 import tempfile
 import streamlit as st
+from langchain.prompts import ChatPromptTemplate
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import DocArrayInMemorySearch
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_groq import ChatGroq
 from langchain_core.output_parsers import StrOutputParser
-from langchain.prompts import ChatPromptTemplate
+
 
 
 def main():
